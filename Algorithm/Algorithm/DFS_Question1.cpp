@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 이 출력되어야 합니다
 void DFS(std::vector<std::vector<int>>& graph, std::vector<bool>& visited, int curr)
 {
 	// 처음 방문이 아니라면
