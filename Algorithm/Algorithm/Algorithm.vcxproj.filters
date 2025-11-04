@@ -40,5 +40,8 @@
     <ClCompile Include="DFS_Question2.cpp">
       <Filter>소스 파일\DFS</Filter>
     </ClCompile>
+    <ClCompile Include="BFS_Question1.cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
