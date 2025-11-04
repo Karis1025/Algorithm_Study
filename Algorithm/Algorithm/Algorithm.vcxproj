@@ -128,13 +128,16 @@
     <ClInclude Include="Heap.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BFS_Question1.cpp" />
+    <ClCompile Include="BFS_Question1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="DFS_Question1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="DFS_Question2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Fibonacci1.cpp" />
     <ClCompile Include="Heap.cpp" />
     <ClCompile Include="Heap_Question1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
