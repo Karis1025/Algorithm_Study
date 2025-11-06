@@ -27,6 +27,12 @@
     <Filter Include="소스 파일\연습\Heap">
       <UniqueIdentifier>{9be7a51f-6614-4a54-89f1-12c799eabf49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준\DP">
+      <UniqueIdentifier>{8a5532e6-545d-478c-b80a-e71fd98a8c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준\PathFind">
+      <UniqueIdentifier>{5eb22932-556a-4344-909d-872774ecbfa7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Heap.h">
@@ -58,17 +64,20 @@
     <ClCompile Include="Fibonacci2.cpp">
       <Filter>소스 파일\연습\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="로봇청소기_14053.cpp">
-      <Filter>소스 파일\백준</Filter>
-    </ClCompile>
-    <ClCompile Include="극장좌석_2302.cpp">
-      <Filter>소스 파일\백준</Filter>
-    </ClCompile>
     <ClCompile Include="농심라면공장.cpp">
       <Filter>소스 파일\연습\Heap</Filter>
     </ClCompile>
     <ClCompile Include="피보나치2_2748.cpp">
-      <Filter>소스 파일\백준</Filter>
+      <Filter>소스 파일\백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기_1463.cpp">
+      <Filter>소스 파일\백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="극장좌석_2302.cpp">
+      <Filter>소스 파일\백준\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇청소기_14053.cpp">
+      <Filter>소스 파일\백준\PathFind</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
