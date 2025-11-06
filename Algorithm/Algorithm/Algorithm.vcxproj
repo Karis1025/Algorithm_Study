@@ -129,7 +129,10 @@
     <ClInclude Include="Heap.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1로만들기_1463.cpp" />
+    <ClCompile Include="1로만들기_1463%28BFS%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1로만들기_1463(DP).cpp" />
     <ClCompile Include="BFS_Question1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -70,7 +70,7 @@
     <ClCompile Include="피보나치2_2748.cpp">
       <Filter>소스 파일\백준\DP</Filter>
     </ClCompile>
-    <ClCompile Include="1로만들기_1463.cpp">
+    <ClCompile Include="1로만들기_1463%28BFS%29.cpp">
       <Filter>소스 파일\백준\DP</Filter>
     </ClCompile>
     <ClCompile Include="극장좌석_2302.cpp">
@@ -78,6 +78,9 @@
     </ClCompile>
     <ClCompile Include="로봇청소기_14053.cpp">
       <Filter>소스 파일\백준\PathFind</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기_1463(DP).cpp">
+      <Filter>소스 파일\백준\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
